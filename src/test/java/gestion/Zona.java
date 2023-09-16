@@ -5,7 +5,7 @@ import zooAnimales.*;
 public class Zona{
 	private String nombre;
 	private Zoologico zoo;
-	private ArrayList<Animal> animales;
+	private ArrayList<Animal> animales = new ArrayList<Animal>();
 	
 	public Zona() {} //Void constructor
 	
@@ -44,7 +44,8 @@ public class Zona{
 	public ArrayList<Animal> getAnimales() {
 		return this.animales;
 	}
-
-	//public static void main(String[] args) {			
-	//}
 }
+
+//	public static void main(String[] args) {	
+
+//}
