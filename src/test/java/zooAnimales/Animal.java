@@ -11,7 +11,7 @@ public class Animal {
 	
 	public Animal(){totalAnimales+=1;} //Void constructor
 	
-	public Animal(String nombre, int edad, String habtitat, String genero) {
+	public Animal(String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;
@@ -75,5 +75,6 @@ public class Animal {
 	}
 	
 	public static int getTotalAnimales() {return totalAnimales;}
+	
 
 }

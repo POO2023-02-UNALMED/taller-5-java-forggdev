@@ -44,4 +44,7 @@ public class Zona{
 	public ArrayList<Animal> getAnimales() {
 		return this.animales;
 	}
+
+	//public static void main(String[] args) {			
+	//}
 }
